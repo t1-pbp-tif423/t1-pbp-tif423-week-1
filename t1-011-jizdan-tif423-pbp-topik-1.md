@@ -30,15 +30,21 @@ Pemilihan Platform dan Alat: Menggunakan Tinkercad sebagai platform simulasi unt
 4. Analisis Hasil: Mengevaluasi bagaimana perbedaan sintaks mempengaruhi hasil semantik dan perilaku perangkat IoT.
 
 ## 4. Pelaksanaan Experiment
-Penyusunan Rangkaian:
+--- Penyusunan Rangkaian: ---
 
-Buat proyek baru di Tinkercad dan tambahkan komponen berikut ke workspace: Arduino Uno, LED, resistor (220 ohm), dan breadboard.
+Buat proyek baru di Tinkercad dan tambahkan komponen berikut ke workspace: 
+1. Arduino Uno
+2. LED
+3. Resistor (220 ohm)
+4. Breadboard
+   
 Hubungkan LED dan resistor ke breadboard. Sambungkan salah satu kaki resistor ke pin digital Arduino (misalnya, pin 13), dan kaki lainnya ke GND Arduino.
-Penulisan Kode (Sintaks):
+
+--- Penulisan Kode (Sintaks): ---
 
 Berikut adalah kode untuk menghidupkan dan mematikan lampu LED dalam interval 1 detik:
 
---- cpp
+```cpp
 int ledPin = 13;
 
 void setup() {
@@ -51,23 +57,26 @@ void loop() {
   digitalWrite(ledPin, LOW);
   delay(1000);
 }
-Modifikasi Kode untuk Pengujian Semantik:
+```
+
+--- Modifikasi Kode untuk Pengujian Semantik: ---
 
 Misalnya, kita akan mengubah frekuensi kedipan LED:
 
+```cpp
 void loop() {
   digitalWrite(ledPin, HIGH);
   delay(500);  // LED menyala selama 0.5 detik
   digitalWrite(ledPin, LOW);
   delay(1500); // LED mati selama 1.5 detik
 }
----
+```
 
-Simulasi:
+--- Simulasi: ---
 
 Klik "Start Simulation" di Tinkercad untuk menjalankan setiap versi kode dan mengamati bagaimana LED berperilaku sesuai dengan perubahan sintaks yang diterapkan.
 
-Pengumpulan Data:
+--- Pengumpulan Data: ---
 
 Catat hasil dari setiap simulasi, termasuk apakah LED berfungsi sesuai yang diharapkan dan bagaimana perubahan sintaks memengaruhi semantik (tindakan LED).
 
