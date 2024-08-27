@@ -76,7 +76,7 @@ Analisis:
 Analisis apakah kesalahan tipe data ditangani dengan baik oleh type system C++.
 Evaluasi bagaimana penggunaan type system dapat mencegah bug atau crash pada aplikasi IoT.
 Identifikasi apakah type system membantu dalam menjaga keandalan dan efisiensi sistem, terutama pada perangkat dengan sumber daya terbatas.
-5. Analisis Hasil Eksperimen
+### 5. Analisis Hasil Eksperimen
 Setelah eksperimen dilakukan, berikut adalah beberapa poin penting yang dapat diambil:
 
 Keandalan: Type system dalam C++ terbukti mampu mencegah beberapa kesalahan tipe yang umum, seperti pengiriman tipe data yang tidak sesuai melalui komunikasi serial.
