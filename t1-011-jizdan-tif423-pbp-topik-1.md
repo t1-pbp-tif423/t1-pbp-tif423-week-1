@@ -19,15 +19,15 @@ Eksperimen ini akan menggunakan platform Tinkercad untuk membuat rangkaian elekt
 ## 3. Metodologi Experiment
 Metodologi eksperimen ini melibatkan langkah-langkah berikut:
 
-Pemilihan Platform dan Alat: Menggunakan Tinkercad sebagai platform simulasi untuk membangun rangkaian elektronik dan menulis kode Arduino.
+1. Pemilihan Platform dan Alat: Menggunakan Tinkercad sebagai platform simulasi untuk membangun rangkaian elektronik dan menulis kode Arduino.
 
-1. Desain Rangkaian: Merancang rangkaian elektronik sederhana yang melibatkan Arduino Uno, LED, resistor, dan breadboard.
+2. Desain Rangkaian: Merancang rangkaian elektronik sederhana yang melibatkan Arduino Uno, LED, resistor, dan breadboard.
 
-2. Penulisan Kode (Sintaks): Mengembangkan beberapa versi kode Arduino untuk mengontrol LED, yang masing-masing memiliki sintaks berbeda namun ditujukan untuk menghasilkan semantik yang sama atau berbeda.
+3. Penulisan Kode (Sintaks): Mengembangkan beberapa versi kode Arduino untuk mengontrol LED, yang masing-masing memiliki sintaks berbeda namun ditujukan untuk menghasilkan semantik yang sama atau berbeda.
 
-3. Pengujian dan Simulasi: Menjalankan simulasi di Tinkercad untuk mengamati perilaku LED berdasarkan kode yang ditulis.
+4. Pengujian dan Simulasi: Menjalankan simulasi di Tinkercad untuk mengamati perilaku LED berdasarkan kode yang ditulis.
 
-4. Analisis Hasil: Mengevaluasi bagaimana perbedaan sintaks mempengaruhi hasil semantik dan perilaku perangkat IoT.
+5. Analisis Hasil: Mengevaluasi bagaimana perbedaan sintaks mempengaruhi hasil semantik dan perilaku perangkat IoT.
 
 ## 4. Pelaksanaan Experiment
 --- Penyusunan Rangkaian: ---
@@ -83,18 +83,16 @@ Catat hasil dari setiap simulasi, termasuk apakah LED berfungsi sesuai yang diha
 ## 5. Analisis Hasil Experiment
 Dalam analisis ini, kami mengevaluasi hasil dari setiap simulasi yang dilakukan:
 
-Hasil Eksperimen Sintaks Pertama (Kode Dasar):
+--- Hasil Eksperimen Sintaks Pertama (Kode Dasar): ---
 
 Pengamatan: LED menyala dan mati dengan interval 1 detik, sesuai dengan semantik kode.
 Analisis: Sintaks yang digunakan sudah sesuai dengan semantik yang diinginkan, yaitu LED berkedip setiap 1 detik.
 
-Hasil Eksperimen Sintaks Kedua (Kode dengan Interval Berbeda):
+--- Hasil Eksperimen Sintaks Kedua (Kode dengan Interval Berbeda): ---
 
 Pengamatan: LED menyala selama 0.5 detik dan mati selama 1.5 detik.
 Analisis: Modifikasi sintaks menghasilkan perubahan dalam semantik, menunjukkan bahwa perubahan kecil dalam penulisan kode (sintaks) dapat mempengaruhi cara perangkat beroperasi (semantik).
 
-Kesimpulan Umum:
+--- Kesimpulan Umum: ---
 
-Eksperimen menunjukkan bahwa sintaks yang benar penting untuk mencapai semantik yang diinginkan dalam pengendalian perangkat IoT. Kesalahan atau perubahan dalam sintaks dapat mengubah semantik dan perilaku perangkat.
-
-Penting untuk memastikan bahwa penulisan kode dilakukan dengan teliti untuk menghindari hasil yang tidak diinginkan, terutama dalam aplikasi IoT yang sensitif.
+Eksperimen menunjukkan bahwa sintaks yang benar penting untuk mencapai semantik yang diinginkan dalam pengendalian perangkat IoT. Kesalahan atau perubahan dalam sintaks dapat mengubah semantik dan perilaku perangkat. Penting untuk memastikan bahwa penulisan kode dilakukan dengan teliti untuk menghindari hasil yang tidak diinginkan, terutama dalam aplikasi IoT yang sensitif.
