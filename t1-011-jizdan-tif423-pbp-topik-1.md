@@ -38,7 +38,7 @@ Penulisan Kode (Sintaks):
 
 Berikut adalah kode untuk menghidupkan dan mematikan lampu LED dalam interval 1 detik:
 
----cpp
+--- cpp
 int ledPin = 13;
 
 void setup() {
