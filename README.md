@@ -1,12 +1,19 @@
 ## Kelompok 1
 
 **Anggota Tim:**
+
 19. Nieto **(Leader)**
+
 06. Farras
+
 11. Jizdan
+
 13. Micho
+
 22. Ratna
+
 32. Zaki
+
 26. Satria
 
 ---
