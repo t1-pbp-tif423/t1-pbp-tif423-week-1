@@ -17,6 +17,7 @@ haloo, aku mau melakukan eksperimen dengan topik "Code Generation pada IoT mengg
 kalau bisa berikan contoh konteks dalam bahasa Arduinonya ya
 
 ---
+# <p style="text-align: center;">Jawaban AI 🤖</p>
 Keren banget nih topik eksperimen kamu! Yuk, kita breakdown satu per satu tahapannya, dan aku akan kasih contoh kode Arduino yang sesuai konteksnya.
 
 ### 1. Identifikasi Problem
