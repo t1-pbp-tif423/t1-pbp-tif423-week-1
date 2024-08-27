@@ -1,9 +1,12 @@
+***EKSPERIMEN PRINSIP BAHASA PEMROGRAMAN - PRAKTEK***
+
+---
 
 - **Topik:** Event-Driven Programming
 - **Content:** Reactive Programming
 - **PIC:** Nieto Salim Maula
 - **Kelompok:** 1 | Prinsip Bahasa Pemrograman | Praktek
-- **Tautan Referensi:** [Event-Driven Programming - ChatGPT](https://chatgpt.com/share/8422f857-3d6c-4171-b587-73b906d905e9)
+- **Tautan Referensi:** [Event-Driven Programming - ChatGPT](https://chatgpt.com/share/8422f857-3d6c-4171-b587-73b906d905e9), [Referensi 2](#), [Referensi 3](#)
 
 ---
 
@@ -42,7 +45,54 @@ Untuk menyelidiki efektivitas *Event-Driven Programming* dalam konteks ini, eksp
 3. **Pengamatan dan Pengumpulan Data:**
    - Amati bagaimana sistem merespons event, catat waktu respons, penggunaan daya, dan efisiensi sumber daya. Lakukan pengujian berulang kali untuk mengevaluasi stabilitas sistem.
 
-### 5. Analisis Hasil Experiment
+### 5. Percobaan Sederhana di Tinkercad
+
+**Tujuan:** Membuat sistem sederhana yang merespons input dari sensor (misalnya, sensor cahaya atau tombol) dan melakukan aksi tertentu (misalnya, menyalakan LED) ketika kondisi tertentu terpenuhi.
+
+**Komponen yang Digunakan:**
+- Arduino Uno
+- 1 LED
+- 1 Resistor (220 ohm)
+- 1 Tombol
+- 1 Resistor Pull-down (10k ohm)
+- Breadboard dan kabel jumper
+
+**Skema Rangkaian:**
+- Hubungkan anoda LED ke pin digital 13 Arduino melalui resistor 220 ohm, dan katoda ke ground.
+- Sambungkan salah satu kaki tombol ke pin digital 2 Arduino dan kaki lainnya ke ground. Tambahkan resistor pull-down 10k ohm antara pin digital 2 dan ground.
+
+**Kode Program (C++/Arduino):**
+```cpp
+int pushButton = 2;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(pushButton, INPUT_PULLUP);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  bool buttonState = digitalRead(pushButton);
+  if (buttonState == LOW) {
+    digitalWrite(LED_BUILTIN, HIGH);
+  } else {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+  Serial.println(buttonState);
+  delay(1000); // Delay the blink for a second
+}
+```
+
+**Penjelasan:**
+- Program ini memantau status tombol. Ketika tombol ditekan (event), Arduino mendeteksi sinyal HIGH pada pin 2 dan merespons dengan menyalakan LED.
+- Jika tombol dilepaskan (tidak ada event), LED akan dimatikan.
+- Ini adalah contoh sederhana dari *Event-Driven Programming* di mana program bereaksi terhadap input eksternal secara langsung.
+
+**Simulasi di Tinkercad:**
+- Setelah membuat rangkaian di Tinkercad, unggah kode ke Arduino virtual, dan jalankan simulasi. [Klik di sini untuk melihat simulasi Tinkercad](https://www.tinkercad.com/things/5SQFgfKnRz6-019-nieto-event-driven).
+- Amati bagaimana LED bereaksi saat tombol ditekan dan dilepaskan, menunjukkan prinsip *Event-Driven Programming* di IoT.
+
+### 6. Analisis Hasil Experiment
 
 1. **Evaluasi Kecepatan Respons:**
    - Analisis seberapa cepat sistem merespons event kritis dan apakah respons tersebut sesuai dengan kebutuhan aplikasi industri. Bandingkan waktu respons dengan standar yang dibutuhkan.
