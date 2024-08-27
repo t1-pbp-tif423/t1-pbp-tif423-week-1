@@ -68,6 +68,7 @@ Untuk membuktikan prinsip imperative language dengan rangkaian sederhana menggun
 - Hubungkan kaki positif (anoda) LED ke pin 13 pada Arduino.
 - Hubungkan kaki negatif (katoda) LED ke salah satu ujung resistor 220Ω.
 - Hubungkan ujung resistor lainnya ke GND pada Arduino.
+
 **2. Menulis Kode Imperatif:**
 - Buka bagian Code di Tinkercad dan pilih Text untuk menulis kode Arduino (C++):
     ```
@@ -83,4 +84,5 @@ Untuk membuktikan prinsip imperative language dengan rangkaian sederhana menggun
     }
     ```
 - Jalankan simulasi. Anda akan melihat LED menyala dan mati dengan interval 1 detik.
+
 **Penjelasan:** Kode ini adalah contoh dari imperative language karena Anda memberikan instruksi langkah-demi-langkah yang eksplisit kepada Arduino tentang apa yang harus dilakukan.
