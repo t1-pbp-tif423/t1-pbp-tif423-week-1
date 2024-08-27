@@ -2,21 +2,21 @@
 
 **🌟Leader Kelompok**
 
-19. Nieto Salim Maula - 231524019
+19 - Nieto Salim Maula - 231524019
 
 **🫂 Anggota Tim:**
 
-06. Farras Ahmad Rasyid - 231524006
+06 - Farras Ahmad Rasyid - 231524006
 
-11. Jizdan Mulkan Nailan - 231524011
+11 - Jizdan Mulkan Nailan - 231524011
 
-13. Micho Dhani Firmansyah - 231524013
+13 - Micho Dhani Firmansyah - 231524013
 
-22. Ratna Puspitasari - 231524022
+22 - Ratna Puspitasari - 231524022
 
-26. Satria Permata Sejati - 231524026
+26 - Satria Permata Sejati - 231524026
 
-32. Zaki Abdillah - 231524032
+32 - Zaki Abdillah - 231524032
 
 ---
 
