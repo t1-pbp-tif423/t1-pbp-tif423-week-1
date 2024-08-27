@@ -21,13 +21,13 @@ Metodologi eksperimen ini melibatkan langkah-langkah berikut:
 
 Pemilihan Platform dan Alat: Menggunakan Tinkercad sebagai platform simulasi untuk membangun rangkaian elektronik dan menulis kode Arduino.
 
-Desain Rangkaian: Merancang rangkaian elektronik sederhana yang melibatkan Arduino Uno, LED, resistor, dan breadboard.
+1. Desain Rangkaian: Merancang rangkaian elektronik sederhana yang melibatkan Arduino Uno, LED, resistor, dan breadboard.
 
-Penulisan Kode (Sintaks): Mengembangkan beberapa versi kode Arduino untuk mengontrol LED, yang masing-masing memiliki sintaks berbeda namun ditujukan untuk menghasilkan semantik yang sama atau berbeda.
+2. Penulisan Kode (Sintaks): Mengembangkan beberapa versi kode Arduino untuk mengontrol LED, yang masing-masing memiliki sintaks berbeda namun ditujukan untuk menghasilkan semantik yang sama atau berbeda.
 
-Pengujian dan Simulasi: Menjalankan simulasi di Tinkercad untuk mengamati perilaku LED berdasarkan kode yang ditulis.
+3. Pengujian dan Simulasi: Menjalankan simulasi di Tinkercad untuk mengamati perilaku LED berdasarkan kode yang ditulis.
 
-Analisis Hasil: Mengevaluasi bagaimana perbedaan sintaks mempengaruhi hasil semantik dan perilaku perangkat IoT.
+4. Analisis Hasil: Mengevaluasi bagaimana perbedaan sintaks mempengaruhi hasil semantik dan perilaku perangkat IoT.
 
 ## 4. Pelaksanaan Experiment
 Penyusunan Rangkaian:
