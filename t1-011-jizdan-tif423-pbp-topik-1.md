@@ -36,7 +36,9 @@ Buat proyek baru di Tinkercad dan tambahkan komponen berikut ke workspace: Ardui
 Hubungkan LED dan resistor ke breadboard. Sambungkan salah satu kaki resistor ke pin digital Arduino (misalnya, pin 13), dan kaki lainnya ke GND Arduino.
 Penulisan Kode (Sintaks):
 
-Berikut adalah kode untuk menghidupkan dan mematikan lampu LED dalam interval 1 detik
+Berikut adalah kode untuk menghidupkan dan mematikan lampu LED dalam interval 1 detik:
+
+---cpp
 int ledPin = 13;
 
 void setup() {
@@ -59,6 +61,7 @@ void loop() {
   digitalWrite(ledPin, LOW);
   delay(1500); // LED mati selama 1.5 detik
 }
+---
 
 Simulasi:
 
