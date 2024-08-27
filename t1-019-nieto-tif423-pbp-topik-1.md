@@ -1,12 +1,12 @@
-Berikut adalah markdown yang sudah ditambahkan dengan tautan ke Tinkercad:
+***EKSPERIMEN PRINSIP BAHASA PEMROGRAMAN - PRAKTEK***
 
 ---
 
-**Topik:** Event-Driven Programming
-**Content:** Reactive Programming
-**PIC:** Nieto Salim Maula
-**Kelompok:** 1 | Prinsip Bahasa Pemrograman | Praktek
-**Tautan Referensi:** [Event-Driven Programming - ChatGPT](https://chatgpt.com/share/8422f857-3d6c-4171-b587-73b906d905e9), [Referensi 2](#), [Referensi 3](#)
+- **Topik:** Event-Driven Programming
+- **Content:** Reactive Programming
+- **PIC:** Nieto Salim Maula
+- **Kelompok:** 1 | Prinsip Bahasa Pemrograman | Praktek
+- **Tautan Referensi:** [Event-Driven Programming - ChatGPT](https://chatgpt.com/share/8422f857-3d6c-4171-b587-73b906d905e9), [Referensi 2](#), [Referensi 3](#)
 
 ---
 
