@@ -1,6 +1,6 @@
 
 - **Topik:** Optimization
-- **Content:** Management Memory Pada Program
+- **Content:** Domain-Spesific Language
 - **PIC:** Zaki Abdillah
 - **Kelompok:** 1 | Prinsip Bahasa Pemrograman | Praktek
 - **Tautan Referensi:** [Optimization - ChatGPT](https://chatgpt.com/share/b35f7c81-a6c8-4202-a55e-54673b353b29)
